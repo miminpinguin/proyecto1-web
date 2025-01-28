@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(11, 205, 219);
+}
+img{width: 250px;
+    height: 250px;
+}
+#img1{
+    width: 250px;
+    height: 250px;
+
+border-radius: 81px;
+}
+#botoncito{
+    color: brown;
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 150px;
+    height: 50px;
+    
+      
+}
+h1 {
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+  }
+  .box {
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+  }
+#botoncito {
+    font-weight: bold; /* texto en cursiva */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    padding: 12px 25px;
+  }
+#botoncito {
+    background-color: #008CBA; /* Azul */
+    color: rgba(7, 2, 2, 0.247);
+    padding: 15px 32px;
+    font-size: 16px;
+    border: 2px solid #007B8C; /* Borde azul más oscuro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    cursor: pointer;
+  }
+  
+#botoncito:hover {
+    background-color: #00098c; /* Cambio de color de fondo al pasar el mouse */
+    box-shadow: 0 6px 10px rgba(14, 11, 226, 0.541); /* Sombra más grande al hacer hover */
+  }
+#botoncito:active {
+    background-color: #3e8e41; /* Color de fondo más oscuro cuando se hace clic */
+    transform: scale(0.98); /* Hace que el botón se "encoga" un poco cuando se presiona */
+  }
+  
+#botoncito {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    border: none; /* Eliminar borde predeterminado */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambiar el cursor cuando pasas el mouse sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  #botoncito:disabled {
+    background-color: #ccc; /* Color de fondo gris */
+    color: #777; /* Color de texto gris claro */
+    border: none;
+    cursor: not-allowed; /* Cambiar el cursor a "no permitido" */
+  }
+  
+  
+  
+  
+  
+  
+  
+#botoncito {
+    display: flex;
+    justify-content: space-between;
+  }
+nav {
+    background-color: rgba(0, 5, 5, 0.918);
+    color: rgb(0, 136, 255);
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    font-family:  Georgia;
+    font-size: 15px;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+nav ul li {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+li{ 
+  list-style: none;
+}
+nav ul li a:hover {
+    padding: 40px;
+}
+
+  
