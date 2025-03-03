@@ -29,7 +29,7 @@ border-radius: 81px;
 
 nav {
     background-color: rgba(0, 5, 5, 0.918);
-    color: rgb(0, 136, 255);
+    color: rgb(5, 123, 226);
     text-align: center;
 }
 
@@ -143,6 +143,185 @@ section{
 .imagenes img:hover{
   transform: scale(1.5s);
 }
+
+
+img{width: 250px;
+    height: 250px;
+}
+#img1{
+    width: 250px;
+    height: 250px;
+
+border-radius: 81px;
+}
+
+    
+      
+
+#escrito1 {
+    text-align: 4px 4px 4px rgb(212, 198, 198);
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+nav {
+    background-color: rgba(0, 5, 5, 0.918);
+    color: rgb(0, 136, 255);
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    font-family:  Georgia;
+    font-size: 15px;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+nav ul li {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+li{ 
+  list-style: none;
+} 
+nav ul li a:hover {
+    padding: 10px;
+}
+nav ul li a:hover{
+  background-color: #00098c;
+  color: azure;
+}
+
+  
+nav ul li a {
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: white; /* Color del texto blanco */
+  border: none; /* Eliminar borde predeterminado */
+  padding: 10px 10px; /* Espaciado dentro del botón */
+  font-size: 10px; /* Tamaño de la fuente */
+  cursor: pointer; /* Cambiar el cursor cuando pasas el mouse sobre el botón */
+  border-radius: 5px; /* Bordes redondeados */
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li{
+  position: relative;
+}
+nav ul li a{
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 15px;
+  display: block;
+  background-color: black;
+  border-radius: 8px;
+  transition: background-color .3s ease;
+}
+nav ul li a:hover{
+  background-color: #3e8e41;
+}
+nav ul li.opcion-submenu .submenu{
+  display: none;
+  position: absolute;
+  background-color: #ccc;
+  border-radius: 8px;
+}
+nav ul li.opcion-submenu:hover .submenu{
+  display: block;
+}
+nav ul li .submenu li {
+  margin: 0;
+}
+
+nav ul li .submenu li a {
+
+  font-size: 15px;
+  color:aqua;
+  display: block;
+}
+
+nav ul li .submenu li a:hover {
+  background-color:#777;
+}
+
+
+
+
+
+
+section{
+  padding: 10px;
+  text-align: center;
+}
+.imagenes{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.imagenes img{
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform .5s ease;
+}
+.imagenes img:hover{
+  transform: 5px;
+}
+h1{
+    text-align: center;
+    background-color: rgba(192, 176, 176, 0.664);
+}
+
+table {
+  border-radius: 8px;
+  border-spacing: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
 h1
  {
   font-size: 30px;
@@ -157,7 +336,7 @@ h1
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 h2{
-  font-size: 28px;
+  font-size: 26px;
     font-weight: 600;
     color: #533425; 
     text-align: center;
@@ -166,10 +345,14 @@ h2{
     display: inline-block; 
     padding-bottom: 5px; 
     margin: 20px auto; 
-    
 }
-h3{
-  font-size: 18px;
+h4{
+  background-color: #F4EAD5;
+    font-family: "Garamond", serif;
+    color: #3D2B1F;
+    line-height: 1.8;
+    padding: 20px;
+    font-size: 20px;
     font-weight: bold;
     color: #6D4C41;
     text-align: center;
@@ -177,19 +360,4 @@ h3{
     border-bottom: 3px solid #C8A272;
     display: inline-block;
     padding-bottom: 5px;
-}
-h4{
-  font-size: 18px; 
-  font-weight: bold;
-  color: #291605; 
-  text-align: center;
-  text-transform: uppercase;
-  border-bottom: 3px solid #D4A76A; 
-  display: inline-block;
-  padding-bottom: 5px;
-  background-color: #F4EAD5;
-  font-family: "Garamond", serif; 
-  color: #3D2B1F; 
-  line-height: 1.8; 
-  padding: 15px;
 }
